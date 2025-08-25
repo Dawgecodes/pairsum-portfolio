@@ -9,7 +9,7 @@ import java.util.*;
 @Controller
 public class PairController {
 
-    @GetMapping("/portfolio")
+    @GetMapping("/")
     public String home() {
         return "index"; // templates/index.html
     }
